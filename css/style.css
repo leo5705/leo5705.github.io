@@ -1,0 +1,243 @@
+html, body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: Tahoma;
+	background-color: white;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: white;	;
+}
+header {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	z-index: 2000;
+	background-color: #000080;
+}
+
+
+.home p{
+font-size:30px ;
+margin-right: 60%;
+}
+#logo {
+	margin-left: -5%;
+}
+#multi{
+	margin-top: -10%;
+	margin-right: -50%;
+}
+#card{
+	margin-top:-1%;
+	margin-left: -1%;
+}
+ul {
+	width: 70%;
+	margin: 0 auto;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #172858;
+	font-weight: 600;
+	padding-right: 50px;
+}
+.nav {
+	margin-left: 50%;
+	margin-top: -50px;
+}
+.home {
+	z-index: 1;
+	position: relative;
+	bottom: 50px;
+	background-image: url('../img/bg-header.jpg');
+	width: 100%;
+	height: 650px;
+}
+.container {
+	position: relative;
+	top: 20%;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+.description{
+	text-align: left;
+
+}
+.carta{
+		bottom: 500px;
+		position: relative;
+}
+.about_us {
+	width: 100%;
+	height: 645px;
+	z-index: 1;
+	position: relative;
+}
+.about_us h1 {
+	font-size: 26px;
+	color: black;
+}
+.about_us p {
+	font-size: 16px;
+	color: #8a8a8a;
+}
+.icons {
+	position: relative;
+	top: 150px;
+}
+.icon1 {
+	width: 25%;
+	float: left;
+}
+.icon2 {
+	width: 25%;
+	float: right;
+}
+.icon3 {
+	width: 25%;
+	float: right;
+}
+.icon4 {
+	width: 25%;
+	float: right;
+}
+.footers{
+
+	background-color: #172958;
+
+}
+.sprava{
+	float: right;
+	width: 25%;
+}
+
+.video{
+	margin-left: 122%;
+	margin-top: -275px;
+}
+.maps {
+	background-color: #172958;
+	width: 48%;
+	height: 400px;
+	z-index: 1;
+	position: relative;
+}
+.maps .container {
+	top: 10%;
+}
+.maps h1 {
+	font-size: 36px;
+	color: white;
+	text-align:left;
+	margin-left:-35px;
+
+}
+.maps p {
+	font-size: 24px;
+	color: white;
+	text-align: left;
+	margin-left:-35px;
+}
+.map {
+	z-index: 1;
+	position: relative;
+	margin-left:-5%;
+}
+footer {
+	z-index: 1;
+	width: 160%;
+	height: 200px;
+	background-color: #172958;
+	position: relative;
+	margin-top: 21%;
+	margin-left: -450px;
+}
+.containers {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.sleva{
+	background-color: #172958;
+  float:left;
+	text-align: left;
+	width: 41%;
+
+
+}
+.sleva p{
+	background-color: #172958;
+	margin-left: 5px;
+	font-size: 20px;
+	color: white;
+}
+.sprava{
+	background-color: #172958;
+	text-align: left;
+	color:white;
+	font-size: 20px;
+}
+
+
+@media screen and (min-width: 1440px) {
+	#multi{
+		margin-top: 5%;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	footer {
+	margin-top: 35%;
+}
+
+
+
+ul {
+	margin-left: 30px;
+}
+li {
+	font-size: 18px;
+	padding-right: 20px;
+}
+#logo {
+	margin-right: 20%;
+}
+.container {
+	width: 90%;
+}
+header {
+	width: 120%;
+}
+.home {
+	width: 120%;
+}
+.about_us {
+	width: 120%;
+}
+.maps {
+	width: 120%;
+}
+.map {
+	width: 120%;
+}
+
+@media screen and (max-width: 1240px) {
+	footer {
+	margin-top: 30%;
+}
+	ul {
+	margin-left: 20px;
+}
+	.container {
+	width: 90%;
+}
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vtb</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/icon.png">
+	<meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<ul>
+		<li id="logo"><a href="index.html"><img src="img/logo.png" alt="лого"></a></li>
+		</ul>
+		<ul class="nav">
+		<li><a href="#home">ДЕБЕТОВАЯ КАРТА</a></li>
+		<li><a href="#about_us">О НАС</a></li>
+		<li><a href="#maps">МЫ НА КАРТЕ</a></li>
+		</ul>
+	</header>
+	<div class="home" id="home">
+		<div class="container">
+			<div class = description>
+	<h1>Дебетовая мультикарта ВТБ</h1>
+	<p>оформите дебетовую карту и получайте вознаграждения за покупки </p>
+	<a href="https://www.vtb.ru/personal/karty/debetovye/multikarta/"><img src="img/zakaz.png" alt="кнопка заказать" id="card" width="300" height="250"></a>
+	</div>
+	<div class="carta">
+		<img src="img/card.png" alt="мультикарта" id="multi" width="450" height="300">
+	</div>
+	</div>
+	</div>
+	<div class="about_us" >
+		<div class="container">
+			<div class="icons" id="about_us">
+
+				<div class="icon1">
+				<img src="img/icon1.png" alt="">
+				<p>Второй банк в России</p>
+			</div>
+			<div class="icon2">
+				<img src="img/icon4.png" alt="">
+				<p>все сегменты финансового рынка</p>
+			</div>
+			<div class="icon3">
+				<img src="img/icon3.png" alt="">
+				<p>20 дочерних организаций</p>
+			</div>
+			<div class="icon4">
+			<img src="img/icon2.png" alt="">
+			<p>Офисы в Европе, Азии, Африке</p>
+		</div>
+			</div>
+		</div>
+	</div>
+	<div class="maps" >
+		<div class="container">
+			<div class="O_gruppe">
+			<h1>О Группе ВТБ</h1>
+			<p>Группа ВТБ построена по принципу стратегического холдинга,
+				что предусматривает наличие единой стратегии развития компаний Группы,
+				единого бренда, централизованного финансового менеджмента и управления рисками,
+				 унифицированных систем контроля.</p>
+			</div>
+			<div class="video">
+				 <video width="700" height="400" controls="controls" poster="">
+				 <source src="img/vidos.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				</video>
+			</div>
+		</div>
+	</div>
+	<div class="contacts" >
+		<div class="container">
+			<div class="contact" id="maps">
+				<br><br>
+				<h1>ВТБ В БЛАГОВЕЩЕНСКЕ</h1>
+				<br><br><br>
+	</div >
+	<div class="map" >
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d901.1407733475164!2d127.51414152280037!3d50.29545567052158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78898d1e64090d4f!2z0KPQvdC40LLQtdGA0YHQsNC70YzQvdC-0LUg0L7RgtC00LXQu9C10L3QuNC1ICjQkdCw0L3QuiDQktCi0JEp!5e0!3m2!1sru!2sru!4v1594019669678!5m2!1sru!2sru" width="1400" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+
+
+<footer>
+<div class="container">
+	<div class="footers">
+<div class="sleva">
+	<p>675028, в Г. Благовещенск, ул. Игнатьевское шоссе, д.15
+		Генеральная лицензия Банка России №1000
+		</p>
+		<p>Ⓒ ВТБ, 2020 </p>
+</div>
+<div class="sprava">
+	<p>Круглосуточная единая справочная служба- пн-вс:<br> +7(4162)51-24-24 <br> 8-800-100-24-24</p>
+
+</div>
+</div>
+</div>
+	</footer>
+	<script>
+		const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+
+    const blockID = anchor.getAttribute('href').substr(1)
+
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
+	</script>
+</body>
+</html>
